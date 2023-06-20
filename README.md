@@ -1,14 +1,14 @@
 # Multisystem all-in-one console motherboard designed by Heber Ltd. for MiSTer and the DE10-nano FPGA platform
 
-### [Multisystem I/O console motherboard](https://github.com/Heber-co-uk/Multisystem/Multisystem_All_in_One_PCB)
+### [Multisystem I/O console motherboard](https://github.com/Heber-co-uk/Multisystem/tree/main/Multisystem_All_in_One_PCB)
 This all in one motherboard (console) is designed by Heber Ltd. and is released as open-source hardware for the MiSTer FPGA community and project. This console style motherboard provides SCART, VGA, Analog and Digital audio outputs, 128MB of SDRAM, SNAC with automatic level-shifters. Multisystem also has a built in 7 port USB 2.0 Hub. HDMI Isolation, fan connections, power switch, Ethernet, 2nd SD CARD interface and a dedicated expansion connector for various cartridges.
 
-### [Multisystem 3D printed enclosure](https://www.printables.com/model/159379-mister-multisystem-v5-2022-classic-gaming-console-)
+### [Multisystem 3D printed enclosure](https://www.printables.com/model/505755-mister-multisystem-v6x-2023-classic-gaming-console)
 An open source enclosure is also available – designed for 3D printing (CC-BY-SA-4.0) commercial use license, over on Printables. Various other enclosures, modules, cartridges and expansion’s are also being made available all the time. Please check back for future updates and new 3D prints. 3D enclosure designed by Richard Horne @RichRap3D for Heber and the Multisystem / MiSTer project.
 
-### Various images of the Multisystem PCB can be found [here](https://github.com/Heber-co-uk/Multisystem/images)
+### Various images of the Multisystem PCB can be found [here](https://github.com/Heber-co-uk/Multisystem/tree/main/images)
 
-### A comprehensive user manual for the Multisystem can be found [here](https://github.com/Heber-co-uk/Multisystem/Manual)
+### A comprehensive user manual for the Multisystem can be found [here](https://github.com/Heber-co-uk/Multisystem/tree/main/Manual)
 Please check the manual if you have any questions about assembly and use of the Multisystem or the MiSTer FPGA project.
 
 
@@ -34,7 +34,7 @@ We would like to thank Neil at RMCRetro for the ongoing support of this project 
 
 
 ## Notes
-The PCB design and schematic is made in Altium, you will need to use Altium Designer v19.0 (or later) in order to view the source files. For convenience, [gerber files (*.zip)]( https://github.com/Heber-co-uk/Multisystem/Multisystem_All_in_One_PCB releases) are also included
+The PCB design and schematic is made in Altium, you will need to use Altium Designer v19.0 (or later) in order to view the source files. For convenience, [gerber files (*.zip)](https://github.com/Heber-co-uk/Multisystem/tree/main/Multisystem_All_in_One_PCB) are also included
 and ready to submit to a PCB manufacturer of your choice.
 
 
