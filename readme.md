@@ -1,31 +1,43 @@
-# Heber Expansion Cartridge templates
+# Multisystem all-in-one console motherboard designed by Heber Ltd. for MiSTer and the DE10-nano FPGA platform
 
-KiCad templates for cartridges for the Multisystem and Multisystem2 / Future Multisystems.
+### [Multisystem I/O console motherboard](https://github.com/Heber-co-uk/Multisystem/tree/main/Multisystem_All_in_One_PCB)
+This all in one motherboard (console) is designed by Heber Ltd. and is released as open-source hardware for the MiSTer FPGA community and project. This console style motherboard provides SCART, VGA, Analog and Digital audio outputs, 128MB of SDRAM, SNAC with automatic level-shifters. Multisystem also has a built in 7 port USB 2.0 Hub. HDMI Isolation, fan connections, power switch, Ethernet, 2nd SD CARD interface and a dedicated expansion connector for various cartridges.
 
-Schematic includes the edge connector with appropriately labelled nets.
+### [Multisystem 3D printed enclosure](https://www.printables.com/model/505755-mister-multisystem-v6x-2023-classic-gaming-console)
+An open source enclosure is also available – designed for 3D printing (CC-BY-SA-4.0) commercial use license, over on Printables. Various other enclosures, modules, cartridges and expansion’s are also being made available all the time. Please check back for future updates and new 3D prints. 3D enclosure designed by Richard Horne @RichRap3D for Heber and the Multisystem / MiSTer project.
 
-PCB includes the edge connector and a board outline.
+### Various images of the Multisystem PCB can be found [here](https://github.com/Heber-co-uk/Multisystem/tree/main/images)
 
-The Multisystem cartridge also includes a micro USB 3.0 connector, which enables SNAC cartridges to be connected to other MiSTer FPGA systems. On the Multisystem/Multisystem2, the V_SNAC signal from the edge connector and power from the USB connector will be at 5V or 3.3V depending on the voltage setting on the Multisystem, but on other MiSTer systems, the voltage from the USB connector is always 5V even when a level shifter is used. VBUS on the edge connector is current-limited 5V from the USB current limiting IC whereas 5V on the edge connector is from the main power input protected only by the main polyfuse. Also note that the SSRX and SSTX pairs are swapped in the micro USB connector; this is because the SSRX pins at the USB end connect to SSTX at the micro USB end of the cable and vice versa.
-
-If you wish to make your own Cartridges for the Multisystem/Multisystem2, please use this template so they will be compatible.
-Signals include 
- - USB 2.0
- - GPIO Pins (3.3v)
- - Analogue input signals
- - +5V (2A max)
- - +3.3v (1A max)
- - GND
- - VBUS (Selectable voltage on the Multisystem board 3.3v or 5v)
- - Full SNAC/USER PORT
- - Digital Audio output
- - Analogue Audio output
- - RGBHV Analogue video output - various display modes & Standards.
- - Sync On Green signal
+### A comprehensive user manual for the Multisystem can be found [here](https://github.com/Heber-co-uk/Multisystem/tree/main/Manual)
+Please check the manual if you have any questions about assembly and use of the Multisystem or the MiSTer FPGA project.
 
 
-![Pinout of the edge connectors](Multisystem_Multisystem2_Cartridge_pinouts.png)
+### [The official RTC daughter board is also supported on the Multisystem](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC)
+This board provides real time clock. It's plugged into LTC connector.
 
-![Multisystem1/2 Cartridge PCB KiCad template](Multisystem_CART_PCB_template_KiCad.png)
 
-![Multisystem1/2 Cartridge Schematic KiCad template](Multisystem_CART_Scematic_template_KiCad.png)
+### [Please support the MiSTer project and its creators & developers](https://patreon.com/FPGAMiSTer)
+Please consider supporting the original creators for MiSTer and any of the FPGA Core developers over on Patreon or anywhere you can support or help them.
+
+### [Alexey Melnikov](https://github.com/sorgelig)
+The MiSTer project, electronics hardware, the Linux software and many FPGA cores would not have been possible without the dedicated efforts of the community, past projects like MiST and especially Alexey Melnikov for the porting over to the DE10-nano as MiSTer. Please support the project wherever you can.
+
+### [MiSTer Forum](https://misterfpga.org/)
+The MiSTer project forum can be found here.
+
+### [RMC Retro - TheCave]( https://www.rmcretro.com/)
+We would like to thank Neil at RMCRetro for the ongoing support of this project and many others for the Retro Gaming, classic computer and Arcade gaming communities. 
+
+### [Heber Ltd.](https://heber.co.uk/) Heber are developing hardware for the Retro Gaming, classic computer and Arcade gaming communities. If you would like to know more, please visit our website or follow us on social media. 
+
+
+
+
+## Notes
+The PCB design and schematic is made in Altium, you will need to use Altium Designer v19.0 (or later) in order to view the source files. For convenience, [gerber files (*.zip)](https://github.com/Heber-co-uk/Multisystem/tree/main/Multisystem_All_in_One_PCB) are also included
+and ready to submit to a PCB manufacturer of your choice.
+
+
+
+
+
