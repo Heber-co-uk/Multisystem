@@ -20,14 +20,15 @@ All official Heber cartridges feature hard gold plating on the edge contacts to 
 ## Signals 
  - USB 2.0
  - GPIO Pins (3.3v)
- - Analogue input signals
- - +5V (2A max)
- - +3.3v (1A max)
+ - Analogue input signals (on Multisystem 2, the ADC is not fitted and these signals are instead routed to the 50W header where the ADC could be connected or the signals could be used for other things)
+ - +5V unprotected (2A max)
+ - +3.3V unprotected (1A max)
  - GND
- - VBUS (Selectable voltage on the Multisystem board 3.3v or 5v)
+ - VBUS (5V protected by USB overcurrent protection IC)
+ - V_SNAC (Selectable voltage on the Multisystem board 3.3v or 5v)
  - Full SNAC/USER PORT
  - Digital Audio output
- - Analogue Audio output
+ - PWM Analogue Audio output (unfiltered)
  - RGBHV Analogue video output - various display modes & Standards.
  - Sync On Green signal
 
